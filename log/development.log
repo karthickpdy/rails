@@ -1,0 +1,14 @@
+  [4;36;1mSCHEMA (0.2ms)[0m   [0;1mSHOW TABLES [0m
+  [4;35;1mSQL (483.9ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `schema_migrations`[0m
+  [4;35;1mSQL (186.8ms)[0m   [0mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;36;1mSCHEMA (0.3ms)[0m   [0;1mSHOW TABLES [0m
+  [4;35;1mSCHEMA (0.4ms)[0m   [0mSHOW TABLES [0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSCHEMA (0.3ms)[0m   [0mSHOW TABLES [0m
+
+
+Processing Rails::InfoController#properties (for 127.0.0.1 at 2014-06-03 12:44:39) [GET]
+  [4;36;1mSCHEMA (11.5ms)[0m   [0;1mSHOW TABLES [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Completed in 98ms (View: 13, DB: 12) | 200 OK [http://localhost/rails/info/properties]
